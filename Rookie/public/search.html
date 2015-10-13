@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<title>An attack Prone Search Feature</title>
+	<style>
+		body {
+			display: flex;
+			justify-content: space-around;
+    		align-items: center;
+		}
+		.container {
+			width: 60%;
+			margin: 10% auto 0;
+			/*height: 400px;*/
+			background: grey;
+			text-align: center;
+		}
+		.container form {
+			margin: 0 auto;
+			max-width: 60%;
+			padding:50px;
+		}
+	</style>
+</head>
+	<body>
+		<div class="container">
+			<form method="get" action="http://localhost:4040/search">
+				<input type="text" name="search" id="searchText" placeholder="Search Text" />
+				<input type="submit" value="Search" />
+			</form>
+		</div>
+	</body>
+</html>

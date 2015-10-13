@@ -1,0 +1,11 @@
+{
+  "name": "Rookie",
+  "version": "1.0.0",
+  "description": "Rookie server that is attack prone",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanjay Kumar M",
+  "license": "ISC"
+}
